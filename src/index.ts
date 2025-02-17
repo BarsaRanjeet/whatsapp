@@ -10,7 +10,7 @@ void (async () => {
       for (const msg of messages) {
         const { pushName, message } = msg;
         log(`${pushName} => ${JSON.stringify(message)}`);
-        if (message && pushName === "ilankuwar"){
+        if (message && pushName === "Ilan Kuwar"){
           exec("notify-send 💬");
         }
           
